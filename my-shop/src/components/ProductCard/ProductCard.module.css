@@ -1,0 +1,80 @@
+.card {
+  border: 1px solid #e0e0e0;
+  border-radius: 8px;
+  padding: 10px;
+  width: 20%;
+  position: relative;
+  overflow: hidden;
+    text-decoration: none;
+    margin-bottom: 40px;
+
+}
+
+.image {
+  width: 100%;
+  height: auto;
+}
+
+.discount {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  background-color: #28a745;
+  color: white;
+  padding: 2px 8px;
+  border-radius: 4px;
+  font-size: 19px;
+  width: 30px;
+  height: 30px;
+  
+}
+
+.price {
+  font-size: 18px;
+  font-weight: bold;
+  color: #000;
+      font-size: 29px;
+    font-weight: bold;
+    color: #000;
+    margin-top: -2px;
+}
+span{
+  font-size: 16px;
+}
+
+.discountPrice {
+  text-decoration: line-through;
+  color: #888;
+  margin-left: 5px;
+}
+
+.title {
+  font-size: 16px;
+  margin: 10px 0;
+  color: #000;
+  height: 40px;
+}
+
+.addToCart {
+    display: none;
+    background-color: #28a745;
+    color: white;
+    border: none;
+    padding: 20px 20px;
+    border-radius: 4px;
+    cursor: pointer;
+    width: 90%;
+    margin-top: -200px;
+    font-size: 21px;
+    position: absolute;
+    margin-left: 3%;
+    transition: all .4s;
+}
+
+.card:hover .addToCart {
+  display: block; 
+}
+
+.addToCart:hover {
+  background-color: #000; /* Становится чёрной при наведении на кнопку */
+}

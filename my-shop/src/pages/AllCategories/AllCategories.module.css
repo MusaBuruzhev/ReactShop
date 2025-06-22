@@ -1,0 +1,12 @@
+.categorie{
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.main_categori{
+    margin: 40px;
+}
+.main_categori h2{
+    margin-left: 25px
+}

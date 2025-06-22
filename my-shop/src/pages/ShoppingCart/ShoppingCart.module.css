@@ -1,0 +1,190 @@
+.container {
+    margin: 40px;
+}
+
+.header {
+  margin-bottom: 20px;
+}
+
+.title {
+  font-size: 58px;
+  font-weight: bold;
+  margin-bottom: 20px;
+  color: #333;
+}
+
+.backLink {
+  display: block;
+  margin-bottom: 20px;
+  color: #007bff;
+  text-decoration: none;
+}
+
+.backLink:hover {
+  text-decoration: underline;
+}
+
+.cartItems {
+    display: flex;
+    gap: 20px;
+    justify-content: space-between;
+}
+
+.cartItem {
+  border: 1px solid #e0e0e0;
+  padding: 10px;
+  margin-bottom: 10px;
+  display: flex;
+  align-items: center;
+  width: 97%;
+    height: 200px;
+  border-radius: 10px;
+}
+
+.itemImage {
+  width: 20%;
+  margin-right: 10px;
+   height: 100%;
+}
+
+.itemDetails {
+    flex: 1;
+    height: 150px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.itemTitle {
+  font-size: 26px;
+  margin: 0 0 5px 0;
+  color: #333;
+  margin-left: 20px;
+}
+
+.itemPrice {
+    margin: 0;
+    color: #000000;
+    display: flex;
+    width: 200px;
+    height: 50px;
+    justify-content: space-around;
+    align-items: flex-end;
+}
+
+
+.quantityControl {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  border: 1px solid #ccc;
+height: 50px;
+margin-left: 20px;
+margin-right: 20px;
+      
+
+}
+
+.itemPrice{
+    font-size: 30px;
+}
+.quantityButton {
+  width: 50px;
+  height: 50px;
+  border: 1px solid #ccc;
+  cursor: pointer;
+  font-size: 16px;
+  text-align: center;
+  background-color:white;
+  color: #000;
+  font-weight: 600;
+}
+
+.quantity {
+  font-size: 16px;
+  width: 30px;
+  text-align: center;
+}
+
+.removeButton {
+  margin-left: 10px;
+  background: none;
+    border: none;
+    font-size: 27px;
+    color: #838383;
+    cursor: pointer;
+    margin-top: -169px;
+}
+.imageDetails{
+    width: 60%;
+}
+
+.orderDetails {
+  width: 40%;
+  border: 1px solid #e0e0e0;
+  padding: 10px;
+  background: #f5f5f5;
+  border-radius: 4px;
+  height: 500px;
+}
+
+.orderTitle {
+  font-size: 40px;
+  font-weight: bold;
+  margin-bottom: 10px;
+  color: #333;
+}
+
+.orderInfo {
+  font-size: 27px;
+  color: #666;
+  margin: 5px 0;
+  width: 100%;
+  display: flex;
+}
+
+.total {
+  font-size: 64px;
+  font-weight: bold;
+  color: #000;
+  margin: 10px 0;
+    width: 90%;
+
+  display: flex;
+  justify-content: flex-end;
+}
+
+.inputField {
+    width: 94%;
+    margin: 10px 0;
+    padding: 18px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+.orderButton {
+  background-color: #28a745;
+  color: white;
+  padding: 16px;
+  border: none;
+  width: 100%;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+.orderButton:disabled {
+  background-color: #ccc;
+  cursor: not-allowed;
+}
+
+.orderButton:hover:not(:disabled) {
+  background-color: #218838;
+}
+
+.SPPANN{
+    text-decoration: line-through;
+    color: #888;
+    padding-bottom: 4px;
+    padding-left: 10px;
+}

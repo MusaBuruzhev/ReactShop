@@ -1,0 +1,44 @@
+
+
+.categorie{
+    display: flex;
+    justify-content: space-between;
+    margin-left: 40px;
+    margin-right: 40px;
+}
+.title_cards{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-left: 40px;
+    margin-right: 40px;
+}
+.title_cards h2{
+    font-size: 64px;
+}
+.title_cards a{
+    text-decoration: none;
+    font-size: 16px;
+    color: #000;
+    border: 1px solid #DDDDDD;
+    padding: 5px;
+    border-radius:5px;
+    margin-top: 10px;
+}
+.title_cards div{
+    margin-top: 10px;
+    width: 76%;
+    height: 1px;
+    background-color:#DDDDDD;
+    margin-left: auto;
+    
+}
+
+.prod_Card{
+    margin: 40px;
+    display: flex
+;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-between;
+}

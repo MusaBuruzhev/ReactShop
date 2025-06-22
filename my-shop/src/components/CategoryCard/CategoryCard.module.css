@@ -1,0 +1,17 @@
+.card{
+    display: flex;
+}
+
+.card img{
+    width: 85%;
+    height: 330px;
+}
+
+.category_card{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-decoration: none;
+    color: #000;
+    font-size: 20px;
+}

@@ -1,0 +1,26 @@
+.main{
+    background-image: url(../../assets/img@2x.png);
+    height: 600px;
+    background-size: 100% 100%;
+    align-items: center;
+}
+.cont{
+    position: absolute;
+    width: 50%;
+    height: 700px;
+    margin-left: 40px;
+}
+.cont h1{
+    font-size: 96px;
+    color: #FFFFFF;
+}
+
+.cont button{
+    width: 218px;
+    height: 58px;
+    font-size: 20px;
+    background-color:#339933;
+    color: #FFFFFF;
+    border-radius: 10px;
+    border: none;
+}
